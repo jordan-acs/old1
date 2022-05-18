@@ -1,10 +1,13 @@
-body{
-    margin:0;
-    font-family: 'Montserrat', sans-serif;
+* {
+    margin: 0;
 }
 
+.body{
+    margin:0px;
+  }
+
 header{
-    width:100vw;
+    width:100%;
     height:15vh;
     background-color:#3468FC;
     display:flex;
@@ -12,12 +15,8 @@ header{
 }
 
 .icon{
-    margin-left: 2vw;
-}
-
-.valueLetter{
-    font-size: 5vw;
-
+    width: 6.25rem;
+    height: 4.68rem;
 }
 
 .background{
@@ -26,6 +25,10 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+.container {
+    min-width: 664px;
 }
 
 .value{
@@ -44,13 +47,35 @@ header{
     align-content: center;
 }
 
-.number{
-
-}
-
 .eye{
     margin-right: 10vw;
 }
+
+.valueLetter{
+    height: 15vh;
+    font-size: 10vh;
+}
+
+.background2{
+    align-items: center;
+    margin-top:20vh;
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+    height: 200hv;
+}
+
+.earnings{
+    background-color:#8CAAFD;
+    border-radius:10vw;
+    color: #ffffff;
+    border: 0;
+    width:60vw;
+    height:20vh;
+    font-size:200%;
+    margin-bottom: 15vh;
+}
+
 
 
 
