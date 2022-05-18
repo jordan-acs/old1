@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width:100vw;
+    height:15vh;
+    background-color:#3468FC;
+    display:flex;
+    justify-content:space-between;
+}
+
+.icon{
+    margin-left: 2vw;
+}
+
+.valueLetter{
+    font-size: 5vw;
+
+}
+
+.background{
+    text-align: center;
+    margin-top:7vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value{
+    display: flex;
+
+    width: 70vw;
+    height: 10%;
+    border-radius: 10vw;
+    border-color: #8CAAFD;
+    border-width: 1vw;
+    justify-content:center;
+    font-size:5vw ;
+    background-color:white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.number{
+
+}
+
+.eye{
+    margin-right: 10vw;
+}
+
+
+
+
